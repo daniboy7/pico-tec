@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{87BBFC97-E4BE-4E5F-AB0B-6CC8B2B209BB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sistema_de_presupuestos</RootNamespace>
+    <AssemblyName>sistema de presupuestos</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DayPilot, Version=8.4.3622.1, Culture=neutral, PublicKeyToken=426941954f05e7fe, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\Demo\Bin\DayPilot.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Actividades.aspx" />
+    <Content Include="Administrador.aspx" />
+    <Content Include="Administrar curso.aspx" />
+    <Content Include="Ayuda.aspx" />
+    <Content Include="css\nivo-slider.css" />
+    <Content Include="Curso.aspx" />
+    <Content Include="Desglose.aspx" />
+    <Content Include="Equipo.aspx" />
+    <Content Include="fonts\fonts.css" />
+    <Content Include="Imagenes\circle-down.png" />
+    <Content Include="Imagenes\example-slide-1.jpg" />
+    <Content Include="Imagenes\example-slide-2.jpg" />
+    <Content Include="Imagenes\example-slide-3.jpg" />
+    <Content Include="Imagenes\Firma-TEC-ALTA-RESOLUCION.png" />
+    <Content Include="Imagenes\ico.JPG" />
+    <Content Include="Imagenes\images.png" />
+    <Content Include="js\jquery-3.2.1.min.js" />
+    <Content Include="js\jquery-latest.js" />
+    <Content Include="js\jquery.nivo.slider.js" />
+    <Content Include="js\main.js" />
+    <Content Include="Mano de obra.aspx" />
+    <Content Include="Materiales.aspx" />
+    <Content Include="Presupuestos.aspx" />
+    <Content Include="Principal.aspx" />
+    <Content Include="Profesores.aspx" />
+    <Content Include="Proyecto especifico.aspx" />
+    <Content Include="Proyectos.aspx" />
+    <Content Include="Registrarse.aspx" />
+    <Content Include="themes\bar\arrows.png" />
+    <Content Include="themes\bar\bar.css" />
+    <Content Include="themes\bar\bullets.png" />
+    <Content Include="themes\bar\loading.gif" />
+    <Content Include="themes\dark\arrows.png" />
+    <Content Include="themes\dark\bullets.png" />
+    <Content Include="themes\dark\dark.css" />
+    <Content Include="themes\dark\loading.gif" />
+    <Content Include="themes\default\arrows.png" />
+    <Content Include="themes\default\bullets.png" />
+    <Content Include="themes\default\default.css" />
+    <Content Include="themes\default\loading.gif" />
+    <Content Include="themes\light\arrows.png" />
+    <Content Include="themes\light\bullets.png" />
+    <Content Include="themes\light\light.css" />
+    <Content Include="themes\light\loading.gif" />
+    <Content Include="Unidades.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actividades.aspx.cs">
+      <DependentUpon>Actividades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Actividades.aspx.designer.cs">
+      <DependentUpon>Actividades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador.aspx.cs">
+      <DependentUpon>Administrador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador.aspx.designer.cs">
+      <DependentUpon>Administrador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrar curso.aspx.cs">
+      <DependentUpon>Administrar curso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrar curso.aspx.designer.cs">
+      <DependentUpon>Administrar curso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ayuda.aspx.cs">
+      <DependentUpon>Ayuda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ayuda.aspx.designer.cs">
+      <DependentUpon>Ayuda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curso.aspx.cs">
+      <DependentUpon>Curso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curso.aspx.designer.cs">
+      <DependentUpon>Curso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Desglose.aspx.cs">
+      <DependentUpon>Desglose.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Desglose.aspx.designer.cs">
+      <DependentUpon>Desglose.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipo.aspx.cs">
+      <DependentUpon>Equipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipo.aspx.designer.cs">
+      <DependentUpon>Equipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mano de obra.aspx.cs">
+      <DependentUpon>Mano de obra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mano de obra.aspx.designer.cs">
+      <DependentUpon>Mano de obra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Materiales.aspx.cs">
+      <DependentUpon>Materiales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Materiales.aspx.designer.cs">
+      <DependentUpon>Materiales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presupuestos.aspx.cs">
+      <DependentUpon>Presupuestos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presupuestos.aspx.designer.cs">
+      <DependentUpon>Presupuestos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.aspx.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.aspx.designer.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesores.aspx.cs">
+      <DependentUpon>Profesores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesores.aspx.designer.cs">
+      <DependentUpon>Profesores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proyecto especifico.aspx.cs">
+      <DependentUpon>Proyecto especifico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proyecto especifico.aspx.designer.cs">
+      <DependentUpon>Proyecto especifico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Proyectos.aspx.cs">
+      <DependentUpon>Proyectos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proyectos.aspx.designer.cs">
+      <DependentUpon>Proyectos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registrarse.aspx.cs">
+      <DependentUpon>Registrarse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registrarse.aspx.designer.cs">
+      <DependentUpon>Registrarse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Unidades.aspx.cs">
+      <DependentUpon>Unidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Unidades.aspx.designer.cs">
+      <DependentUpon>Unidades.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\icomoon.eot" />
+    <Content Include="fonts\icomoon.svg" />
+    <Content Include="fonts\icomoon.ttf" />
+    <Content Include="fonts\icomoon.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:25859/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

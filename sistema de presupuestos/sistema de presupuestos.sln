@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sistema de presupuestos", "sistema de presupuestos\sistema de presupuestos.csproj", "{87BBFC97-E4BE-4E5F-AB0B-6CC8B2B209BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87BBFC97-E4BE-4E5F-AB0B-6CC8B2B209BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BBFC97-E4BE-4E5F-AB0B-6CC8B2B209BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BBFC97-E4BE-4E5F-AB0B-6CC8B2B209BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BBFC97-E4BE-4E5F-AB0B-6CC8B2B209BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

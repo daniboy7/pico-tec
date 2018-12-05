@@ -1,0 +1,15 @@
+C:\Users\Daniel Montoya\Desktop\PICO-TEC\sistema de presupuestos\sistema de presupuestos\bin\sistema de presupuestos.dll
+C:\Users\Daniel Montoya\Desktop\PICO-TEC\sistema de presupuestos\sistema de presupuestos\bin\sistema de presupuestos.pdb
+C:\Users\Daniel Montoya\Desktop\PICO-TEC\sistema de presupuestos\sistema de presupuestos\obj\Debug\sistema de presupuestos.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Montoya\Desktop\PICO-TEC\sistema de presupuestos\sistema de presupuestos\obj\Debug\sistema de presupuestos.dll
+C:\Users\Daniel Montoya\Desktop\PICO-TEC\sistema de presupuestos\sistema de presupuestos\obj\Debug\sistema de presupuestos.pdb
+C:\Users\Julio GE\Documents\My Web Sites\sistema de presupuestos\sistema de presupuestos\bin\sistema de presupuestos.dll
+C:\Users\Julio GE\Documents\My Web Sites\sistema de presupuestos\sistema de presupuestos\bin\sistema de presupuestos.pdb
+C:\Users\Julio GE\Documents\My Web Sites\sistema de presupuestos\sistema de presupuestos\obj\Debug\sistema de presupuestos.csprojResolveAssemblyReference.cache
+C:\Users\Julio GE\Documents\My Web Sites\sistema de presupuestos\sistema de presupuestos\obj\Debug\sistema de presupuestos.dll
+C:\Users\Julio GE\Documents\My Web Sites\sistema de presupuestos\sistema de presupuestos\obj\Debug\sistema de presupuestos.pdb
+C:\Users\Julio GE\Documents\My Web Sites\sistema de presupuestos\sistema de presupuestos\bin\DayPilot.dll
+C:\Users\Julio GE\Documents\My Web Sites\sistema de presupuestos\sistema de presupuestos\bin\itextsharp.dll
+C:\Users\Daniel Montoya\Downloads\sistema de presupuestos\sistema de presupuestos\sistema de presupuestos\obj\Debug\sistema de presupuestos.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Montoya\Downloads\sistema de presupuestos\sistema de presupuestos\sistema de presupuestos\obj\Debug\sistema de presupuestos.dll
+C:\Users\Daniel Montoya\Downloads\sistema de presupuestos\sistema de presupuestos\sistema de presupuestos\obj\Debug\sistema de presupuestos.pdb
